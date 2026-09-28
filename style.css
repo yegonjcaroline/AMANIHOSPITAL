@@ -1,0 +1,144 @@
+:root {
+    --primary: #0b5d6b;
+    --secondary: #18a999;
+    --background: #f4f9fc;
+    --text: #263746;
+    --white: #ffffff;
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: var(--background);
+    color: var(--text);
+}
+
+nav {
+    background: var(--primary);
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: var(--white);
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover { color: #ffd166; }
+
+.hero {
+    background: #dff3f5;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.hero h1 { color: var(--primary); }
+.hero p { font-size: 20px; }
+
+.button {
+    display: inline-block;
+    background: var(--primary);
+    color: var(--white);
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover { background: #084c57; }
+
+.section-title {
+    color: var(--primary);
+    text-align: center;
+}
+
+.card {
+    background: var(--white);
+    padding: 25px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 { color: var(--primary); }
+
+.hospital-image {
+    width: 100%;
+    max-width: 800px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+}
+
+.css-demo { padding: 35px 20px; }
+.css-demo-intro { text-align: center; }
+.css-demo-cards {
+    display: flex;
+    gap: 20px;
+    max-width: 1100px;
+    margin: 25px auto;
+}
+
+.css-demo-card {
+    flex: 1;
+    background: var(--white);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.external-example { border-top: 5px solid var(--secondary); }
+
+
+.page-header {
+    background: var(--primary);
+    color: var(--white);
+    text-align: center;
+    padding: 40px;
+}
+
+form {
+    background: var(--white);
+    padding: 25px;
+    max-width: 600px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background: var(--primary);
+    color: var(--white);
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #083c46;
+    color: var(--white);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
+@media (max-width: 700px) {
+    nav a { display: inline-block; margin: 8px; }
+    .hero { padding: 40px 15px; }
+    .css-demo-cards { flex-direction: column; }
+}
