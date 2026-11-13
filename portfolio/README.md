@@ -8,7 +8,7 @@ Open `index.html` in a browser. Tailwind CSS and Google Fonts load from their CD
 
 ## Deployment
 
-The repository workflow in `.github/workflows/deploy-portfolio.yml` publishes the contents of this folder to GitHub Pages when changes are pushed to the `codex/portfolio-publish` branch. The contact form currently performs browser-side validation only and does not send or store submissions.
+The repository workflow in `.github/workflows/deploy-portfolio.yml` publishes the contents of this folder to GitHub Pages when changes are pushed to `main`. Merge the portfolio branch into `main` to publish it. The contact form currently performs browser-side validation only and does not send or store submissions.
 
 ## Structure
 
