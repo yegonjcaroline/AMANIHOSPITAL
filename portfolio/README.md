@@ -14,13 +14,14 @@ The repository workflow in `.github/workflows/deploy-portfolio.yml` publishes th
 
 - `index.html` - portfolio sections and page content
 - `script.js` - mobile navigation, form validation, and active section navigation
-- `assets/` - project preview graphics and the downloadable CV PDF
+- `assets/` - project preview graphics
+- `assets/cv/` - downloadable CV PDF
 
 ## Details to complete together
 
 - Replace project preview illustrations with screenshots of the actual projects.
 - Add confirmed live site and repository links for Grace Beauty and Maison.
-- Add education completion years and any confirmed certificates or experience to the CV draft.
+- Add the bachelor's programme title, education completion years, and any confirmed certificates or experience to the CV draft.
 - Confirm whether Amani Crest Academy and Jebwach Tours should be featured.
 - The contact form validates in the browser only; it does not submit or store messages.
 - The CV button downloads a working draft PDF; update it as details are confirmed.
