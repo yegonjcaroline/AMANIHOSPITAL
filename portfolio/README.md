@@ -2,6 +2,8 @@
 
 A responsive full stack developer portfolio built with semantic HTML, Tailwind CSS via CDN, and vanilla JavaScript.
 
+Wide screens include a section index on the left and quick contact/social links on the right. The header navigation remains available across screen sizes; the sidebars hide on smaller screens to preserve space.
+
 ## Preview locally
 
 Open `index.html` in a browser. Tailwind CSS and Google Fonts load from their CDNs, so an internet connection is needed for those styles and fonts.
